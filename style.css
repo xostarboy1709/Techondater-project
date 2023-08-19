@@ -1,0 +1,226 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+h5{
+  margin-left: 70px;
+}
+
+#one{
+  width: 468px;
+}
+a{
+  text-decoration: none;
+}
+.requests{
+  display: flex;
+  justify-content: first baseline;
+}
+.requests img{
+  width: 50px;
+  margin-left: 15px;
+  border-radius: 50%;
+  justify-content:flex-start;
+}
+.requests p{
+  justify-content: flex-end;
+}
+h6,p{
+  line-height: 10px;
+  margin-left: 15px;
+}
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+.Aman{
+  margin-left: 500px;
+  width: 500px;
+}
+.flex-container > div {
+  color: black;
+  margin: 10px;
+  text-align: start;
+  line-height: 25px;
+  font-size: 20px;
+}
+.text-1{
+  font-size: 19px;
+}
+
+.prsnimgs img{
+  width: 50px;
+  margin-left: 5px;
+  border-radius:50%;
+}
+.margin-TN{
+  display: flex;
+  justify-content: flex-start;
+}
+.dots i{
+  display:inline-flex;
+  justify-content: flex-start;
+
+}
+
+
+.story-gallery{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.story{
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(images/status-1.png) ;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px ;
+
+}
+.story img{
+  position: absolute;
+  width: 40px;
+  border-radius: 50px;
+  top: 10px;
+  border: 5px solid blue;
+  margin-left: 10px;
+}
+.story p{
+  position: absolute;
+  bottom: 5px;
+  width: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+
+}
+.story1{
+  background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./scarlett.jpg) ;
+  margin-top: 10px;
+  
+}
+.story2{
+  background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./amanda.jpg) ;
+  margin-top: 10px;
+  
+}
+.story3{
+  background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./judy.jpg) ;
+  margin-top: 10px;
+ 
+}
+.story4{
+  background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./billy.jpg) ;
+  margin-top: 10px;
+ 
+}
+.story5{
+  background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url(./lori.jpg) ;
+  margin-top: 10px;
+
+}
+.card-header:first-child {
+  border-radius: 0 0 0 0;
+}
+.card-header {
+  padding: 0.875rem 1.5rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #f2f4f9;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 0 0;
+}
+.card-footer {
+  padding: 0.875rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px solid #f2f4f9;
+}
+
+.grid-margin {
+  margin-bottom: 1rem;
+}
+
+.card {
+  box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #f2f4f9;
+  border-radius: 0.25rem;
+}
+
+
+.user-profile{
+  display: flex;
+  align-items: center;
+}
+.user-profile img{
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post-container{
+       width:95%;
+       background: #fff;
+       border-radius: 6px;
+       padding: 20px;
+       color: #626262;
+       margin: 5px 0;
+}
+.user-profile span
+{
+ font-size: 13px;
+ color: #9a9a9a;
+}
+.post-text{
+color: #9a9a9a;
+margin: 15px;
+font-size: 15px;
+}
+.post-image1{
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.post-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.activity-icons div img{
+  width: 18px;
+  margin-right: 10px;
+}
+.activity-icons div{
+  display: inline-flex;
+  align-items: center;
+  margin-right: 30px ;
+}
+.post-profile-icon{
+  display: flex;
+  align-items: center;
+
+}
+.post-profile-icon img{
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
