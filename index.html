@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+</head>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid ms-5"> <span style="margin-left: 35px;"><i
+          class="bi bi-megaphone-fill bg-primary p-2 text-white "
+          style="font-size: 18px; margin-left: 78px; border-radius: 10px;"></i></span>
+      <form class="d-flex"> <input class="form-control ms-2 me-2 bg-light" style="width: 280px;" type="search"
+          placeholder="Search" aria-label="Search"> </form> <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 " style="margin-left: 220px;">
+          <li class="nav-item dropdown ms-4 "> <a class="nav-link dropdown-toggle text-primary fw-bolder" href="#"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Demo </a>
+            <ul class="dropdown-menu ps-2" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item ms-5 text-primary" href="#">Home Default</a></li>
+              <li><a class="dropdown-item ms-5" href="#">Home Classic</a></li>
+              <li><a class="dropdown-item ms-5" href="#">Home Post</a></li>
+              <li><a class="dropdown-item ms-5" href="#">Home Video</a></li>
+              <li><a class="dropdown-item ms-5" href="#">Home Event</a></li>
+              <li><a class="dropdown-item ms-5" href="#">Landing Page</a></li>
+              <li><a class="dropdown-item ms-5" href="#">App Download</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-cloud-download-fill text-success"
+                    style="font-size: 20px; margin-right:5px;"></i><span>Buy Social</span></a> </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown ms-3"> <a class="nav-link dropdown-toggle fw-bolder" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Albums</a></li>
+              <li><a class="dropdown-item" href="#">Celebration</a></li>
+              <li><a class="dropdown-item" href="#">Messaging</a></li>
+              <li><a class="dropdown-item" href="#">Profile <span style="margin-left: 135px;">+</span></a>
+              </li>
+              <li><a class="dropdown-item" href="#">Events</a></li>
+              <li><a class="dropdown-item" href="#">Events 2</a></li>
+              <li><a class="dropdown-item" href="#">Event details</a></li>
+              <li><a class="dropdown-item" href="#">Event Details 2</a></li>
+              <li><a class="dropdown-item" href="#">Groups</a></li>
+              <li><a class="dropdown-item" href="#">Group Details</a></li>
+              <li><a class="dropdown-item" href="#">Post Videos</a></li>
+              <li><a class="dropdown-item" href="#">Post video details</a></li>
+              <li><a class="dropdown-item" href="#">Post details</a></li>
+              <li><a class="dropdown-item" href="#">video details</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Blog details</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Dropdown Levels <span style="margin-left: 60px;">+</span></a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown ms-2"> <a class="nav-link dropdown-toggle fw-bolder" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"> Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Create a page</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Notifications</a></li>
+              <li><a class="dropdown-item" href="#">Help Centre</a></li>
+              <li><a class="dropdown-item" href="#">Help Details</a></li>
+              <li><a class="dropdown-item" href="#">Authentication <span style="margin-left: 55px;">+</span></a></li>
+              <li><a class="dropdown-item" href="#">Error 404</a></li>
+              <li><a class="dropdown-item" href="#">Offline</a></li>
+              <li><a class="dropdown-item" href="#">Privacy & Terms</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-2"> <a class="nav-link fw-bolder" href="#" id="navbarDropdown" role="button">
+              My Network </a></li>
+          <li><button class="border-0 ms-4  mt-1 "><i class="bi bi-chat-left-text bg-light p-2 "
+                style="font-size: 15px;"></i></button></li>
+          <li><button class="border-0 ms-3 mt-1 "><i class="bi bi-gear  bg-light p-2"
+                style="font-size: 15px;"></i></button> </li>
+          <li><button class="border-0 ms-3 mt-1"><i class="bi bi-bell bg-light p-2"
+                style="font-size: 15px;"></i></button> </li>
+          <li><button class="border-0 ms-3 mt-1"><img src="./aman.jpg" style="width: 38px;height: 40px;"></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-4" id="one">
+      <div class="bg-white" style="margin:20px 0px 0px 175px;"> <img src="./profile picture.jpg" style="width:270px; "
+          alt="">
+        <h5>Aman Naresh</h5>
+        <p style="margin-left: 30px;">Web Developer at Webestica</p>
+        <p style="text-align: center; ">I'd love to change the world, but</p>
+        <p style="text-align: center; "> they won’t give me the source</p>
+        <p style="text-align: center; ">code</p>
+        <!-- <div class="row ms-1">
+                    <div class="col" style="margin-left: 5px;"> 256 </div>
+                    <div class="col"> 2.5K </div>
+                    <div class="col"> 365 </div>
+                </div>
+                <div class="row" style="padding-bottom: 15px;">
+                    <div class="col" style="margin-left: 20px;"> Post </div>
+                    <div class="col" style="margin-right: 5px;"> Followers </div>
+                    <div class="col" style="margin-right: 15px;"> Following </div>
+                </div> -->
+        <div class="flex-container bg-white flexcontainerp" style="padding-bottom: 15px;">
+          <div style="flex-grow: 1;  border-right: 1px solid black; margin: 0;">
+            <h6 style="margin-top: 10px; text-align: start; "> 256</h6 style="margin-top: 10px;">
+            <p style="margin-top: 10px; font-size:15px">Post</p>
+          </div>
+          <div style="flex-grow: 1; border-right: 1px solid black; margin: 0;">
+            <h6 style="margin-top: 10px; margin-left: 35px;"> 2.5K</h6>
+            <p style="margin-top: 10px;font-size:15px">Followers</p>
+          </div>
+          <div style="flex-grow: 1; margin: 0; ">
+            <h6 style="margin-top: 10px; margin-left: 35px;">365</h6>
+            <p style="margin-top: 10px;font-size:15px;">Following</p>
+          </div>
+
+        </div>
+
+        <div class="row" style="border-top: 1px solid black;width: 250px;margin-left: 5px;">
+          <div class="col" style="margin-left: -20px;">
+            <ul>
+              <li style="margin-top:20px; list-style: none;"> <img
+                  src="file:///C:/Users/amann/OneDrive/Desktop/project/home-outline-filled.svg"
+                  style="width: 15px; margin-right: 5px;" alt=""> <span class="fw-bolder"> Feed
+                </span> </li>
+              <li style="margin-top:20px; list-style: none;"><img
+                  src="file:///C:/Users/amann/OneDrive/Desktop/project/person-outline-filled.svg"
+                  style="width: 15px; margin-right: 5px;" alt=""><span class="fw-bolder"> Connections
+                </span> </li>
+              <li style="margin-top:20px; list-style: none;"> <img
+                  src="file:///C:/Users/amann/OneDrive/Desktop/project/earth-outline-filled.svg"
+                  style="width: 15px; margin-right: 5px;" alt=""> <span class="fw-bolder"> Latest News
+                </span> </li>
+              <li style="margin-top:20px; list-style: none;"> <img
+                  src="file:///C:/Users/amann/OneDrive/Desktop/project/calendar-outline-filled.svg"
+                  style="width: 15px; margin-right: 5px;" alt=""> <span class="fw-bolder"> Events
+                </span> </li>
+              <li style="margin-top:20px; list-style: none;"> <img
+                  src="file:///C:/Users/amann/OneDrive/Desktop/project/chat-outline-filled.svg"
+                  style="width: 15px; margin-right: 5px;" alt=""> <span class="fw-bolder"> Groups
+                </span> </li>
+              <li style="margin-top:20px; list-style: none;"> <img
+                  src="file:///C:/Users/amann/OneDrive/Desktop/project/notification-outlined-filled.svg"
+                  style="width: 15px; margin-right: 5px;" alt=""> <span class="fw-bolder">
+                  Notifications </span> </li>
+              <li style="margin-top:20px; list-style: none;"> <img
+                  src="file:///C:/Users/amann/OneDrive/Desktop/project/cog-outline-filled.svg"
+                  style="width: 15px; margin-right: 5px;" alt=""> <span class="fw-bolder">Settings</span> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col fw-bolder mb-4  mt-3 text-primary" style="margin-left: 75px; "> View Profile </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" style="margin-left: 175px;"> <span>About &nbsp &nbsp</span> <span>Settings &nbsp
+            &nbsp</span> <span>Support &nbsp &nbsp</span>
+          <span>Docs &nbsp</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" style="margin-left: 200px;"> <span>Help &nbsp &nbsp</span> <span>Privacy &terms</span>
+          <span>Docs &nbsp</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" style="margin-left: 220px;"> <span> ©2022 Webestica</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-4">
+      <div class="p-2 d-flex flex-column" style="width: 570px;">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="./plus-circle.svg">
+            <p>post story</p>
+          </div>
+          <div class="story story2">
+            <p>Amanda Reed</p>
+          </div>
+          <div class="story story3">
+            <p>Billy Vasquez</p>
+          </div>
+          <div class="story story4">
+            <p>Judy Nguyen</p>
+          </div>
+          <div class="story story5">
+            <p>Lori Ferguson</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card card-body" style="width: 560px;">
+          <div class="d-flex mb-3">
+            <!-- Post input -->
+            <form class="w-100">
+              <input style="width: 200px;" class="form-control pe-4 border-0" rows="2" data-autoresize=""
+                placeholder="Share your thoughts..."></input>
+            </form>
+          </div>
+          <!-- Share feed toolbar START -->
+          <ul class="nav nav-pills nav-stack small fw-normal">
+            <li class="nav-item">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" data-bs-toggle="modal"
+                data-bs-target="#feedActionPhoto">
+                <i class="bi bi-image-fill text-success pe-2"></i>Photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" data-bs-toggle="modal"
+                data-bs-target="#feedActionVideo">
+                <i class="bi bi-camera-reels-fill text-info pe-2"></i>Video</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link bg-light py-1 px-2 mb-0" data-bs-toggle="modal"
+                data-bs-target="#modalCreateEvents">
+                <i class="bi bi-calendar2-event-fill text-danger pe-2"></i>Event
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" data-bs-toggle="modal"
+                data-bs-target="#modalCreateFeed">
+                <i class="bi bi-emoji-smile-fill text-warning pe-2"></i>Feeling /Activity</a>
+            </li>
+            <li class="nav-item dropdown ms-lg-auto">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#" id="feedActionShare" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="feedActionShare">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-envelope fa-fw pe-2"></i>Create a poll</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-bookmark-check fa-fw pe-2"></i>Ask a
+                    question
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-pencil-square fa-fw pe-2"></i>Help</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Share feed toolbar END -->
+        </div>
+      </div>
+      <div class="main-content" style="width: 590px;">
+        <div class="post-container">
+          <div class="user-profile">
+            <img src="lori.jpg" />
+            <div>
+              <p class="text-secondary fw-bolder" style="margin-bottom: 0rem;">Lori Ferguson</p>
+              <span style="margin-left: 15px;">Web Developer at Webestica</span>
+            </div>
+          </div>
+          <p class="post-text">“If you can dream it, you can do it.”</p>
+          <img src="./feed image 1.jpg" class="post-image1" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="like-blue.png" />120</div>
+              <div><img src="comments.png" />120</div>
+              <div><img src="share.png" />120</div>
+            </div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="assets/images/profile-pic.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="main-content" style="width: 590px;">
+        <div class="post-container">
+          <div class="user-profile">
+            <img src="judy.jpg" />
+            <div>
+              <p class="text-secondary fw-bolder" style="margin-bottom: 0rem;">Billy Vasquez</p>
+              <span style="margin-left: 15px;">News anchor</span>
+            </div>
+          </div>
+          <p class="post-text">"Trust yourself that you can do it and get it.”</p>
+          <img src="./feed image 2.jpg" class="post-image1" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="like-blue.png" />120</div>
+              <div><img src="comments.png" />120</div>
+              <div><img src="share.png" />120</div>
+            </div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="assets/images/profile-pic.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="main-content" style="width: 590px;">
+        <div class="post-container">
+          <div class="user-profile">
+            <img src="billy.jpg" />
+            <div>
+              <p class="text-secondary fw-bolder" style="margin-bottom: 0rem;">Judy Nguyen</p>
+              <span style="margin-left: 15px;">News anchor</span>
+            </div>
+          </div>
+          <p class="post-text">"Alone we can do so little; together we can do so much."</p>
+          <img src="./feed image 3.jpg" class="post-image1" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="like-blue.png" />120</div>
+              <div><img src="comments.png" />120</div>
+              <div><img src="share.png" />120</div>
+            </div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="assets/images/profile-pic.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-4 Aman">
+        <div class="bg-white" style="margin: -1920px 120px 0px 85px;">
+          <div class="mt-2 pt-3">
+            <h5 style="margin: 5px 0px 0px 25px;">Who to follow</h5>
+
+            <div class="flex-container bg-white">
+              <div class="prsnimgs" style="flex-grow: 2"><img src="./amanda.jpg" alt=""></div>
+              <div style="flex-grow: 2; font-size: 17px;font-weight: 500; ">Amanda Reed &nbsp &nbsp &nbsp <span class="text-1"style="font-size: 15px;font-weight: 400;">Web Developer</span></div>
+              <div style="flex-grow: 5"><i class="bi bi-person-check-fill text-primary"
+                  style="margin-top: 5px; padding: 5px; border-radius:50%;"></i></div>
+            </div>
+            <div class="flex-container bg-white">
+              <div class="prsnimgs" style="flex-grow: 2"><img src="./judy.jpg" alt=""></div>
+              <div style="flex-grow: 2; font-size: 17px;font-weight: 500; ">Billy Vasquez &nbsp &nbsp &nbsp <span class="text-1"style="font-size: 15px;font-weight: 400;">News anchor</span></div>
+              <div style="flex-grow: 5"><i class="bi bi-person-plus-fill text-secondary"
+                  style="margin-top: 5px; padding: 5px; border-radius:50%;"></i></div>
+            </div>
+            <div class="flex-container bg-white">
+              <div class="prsnimgs" style="flex-grow: 2"><img src="./carolyn.jpg" alt=""></div>
+              <div style="flex-grow: 7; font-size: 17px;font-weight: 500; ">Carolyn Ortiz &nbsp &nbsp &nbsp &nbsp <span class="text-1"style="font-size: 15px;font-weight: 400;">News anchor</span>
+              </div>
+              <div style="flex-grow: 5"><i class="bi bi-person-plus-fill text-secondary"
+                  style="margin-top: 5px;  padding: 5px; border-radius:50%;"></i></div>
+            </div>
+            <div class="flex-container bg-white">
+              <div class="prsnimgs" style="flex-grow: 2"><img src="./billy.jpg" alt=""></div>
+              <div style="flex-grow: 2; font-size: 17px;font-weight: 500; ">Judy Nguyen &nbsp &nbsp &nbsp <span class="text-1"style="font-size: 15px;font-weight: 400;">News anchor</span></div>
+              <div style="flex-grow: 5"><i class="bi bi-person-plus-fill text-secondary"
+                  style="margin-top: 5px; padding: 5px; border-radius:50%;"></i></div>
+            </div>
+            <div class="flex-container bg-white">
+              <div class="prsnimgs" style="flex-grow: 2"><img src="./lori.jpg" alt=""></div>
+              <div style="flex-grow: 2; font-size: 17px;font-weight: 500; ">Lori Ferguson &nbsp &nbsp &nbsp &nbsp <span class="text-1"style="font-size: 15px;font-weight: 400;">Web Developer</span></div>
+              <div style="flex-grow: 5"><i class="bi bi-person-plus-fill text-secondary"
+                  style="margin-top: 5px; padding: 5px; border-radius:50%;"></i></div>
+            </div>
+            <div class="row">
+              <div class="col fw-bolder mb-4  mt-1 text-primary" style="margin-left: 75px; "> View Profile </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="bg-white" style="margin: 30px 120px 20px 85px;">
+
+          <h5 style="margin-left: 15px; padding-top: 15px ; ">Today's News</h5>
+          <div>
+            <h6 style="line-height: 20px;">Ten questions you should</h6>
+            <h6 style="line-height: 10px;">answer truthfully</h6>
+            <p style="line-height: 20px;">2hr</p>
+
+          </div>
+
+          <div>
+            <h6 style="line-height: 20px;">Five unbelievable facts about</h6>
+            <h6 style="line-height: 10px;">money</h6>
+            <p style="line-height: 20px;">3hr</p>
+
+          </div>
+          <div>
+            <h6 style="line-height: 20px;">Best Pinterest Boards for</h6>
+            <h6 style="line-height: 10px;">learning about business</h6>
+            <p style="line-height: 20px;">4hr</p>
+
+          </div>
+          <div>
+            <h6 style="line-height: 20px;">Skills that you can learn from</h6>
+            <h6 style="line-height: 10px;">business</h6>
+            <p style="line-height: 20px;">6hr</p>
+
+          </div>
+          <div class="col fw-bolder mb-4 dots mt-3 " style="margin-left: 35px; "> <a class="text-secondary" href="">
+            <i class="bi bi-three-dots"></i>  View all latest news</a>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
